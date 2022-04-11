@@ -6,16 +6,16 @@ on:
   # schedule:
   #   - cron: "0/5 * * * *"
   push:
-    branches:
-      - master
-      - 'feature/*'
-      - 'feature/**'
-      - '!feature/featC'
-      tags:
-        - v1.*
-      paths:
-        - '**.js'
-        - '!filename.js'
+    #branches:
+    #  - master
+    #  - 'feature/*'
+    #  - 'feature/**'
+    #  - '!feature/featC'
+    #  tags:
+    #    - v1.*
+    #  paths:
+    #    - '**.js'
+    #    - '!filename.js'
     # branches-ignore:
       # - null
   # pull_request:
